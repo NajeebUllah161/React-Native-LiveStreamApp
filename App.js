@@ -23,6 +23,7 @@ import LiveVideoScreen from './screens/LiveVideoScreen';
 import UploadScreen from './screens/UploadScreen';
 import EarningScreen from './screens/EarningScreen';
 import DemoUploadScreen from './screens/DemoUploadScreen';
+import DemoUploadVideo from './screens/DemoUploadVideo';
 
 export default function App() {
   const [selected, setSelected] = React.useState(1);
@@ -31,7 +32,7 @@ export default function App() {
 
       <Route exact path="/" component={HomeScreen} />
       <Route path="/livevideo" component={LiveVideoScreen} />
-      <Route path="/upload" component={DemoUploadScreen} />
+      <Route path="/upload" component={DemoUploadVideo} />
       <Route path="/earning" component={EarningScreen} />
 
       <NativeBaseProvider>
