@@ -6524,6 +6524,11 @@ react-native-codegen@^0.0.6:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
+react-native-ffmpeg@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/react-native-ffmpeg/-/react-native-ffmpeg-0.5.1.tgz#24e94f346961bad3b46b81b0c89f6182ab0a28d5"
+  integrity sha512-F9ewadFUqjiyOzUv/uAHK0LTxru4MiGvOSJAQRO+9OiYmcM4jmx2IyKOPRiMnk0BodAdZlmOdNMCUrReS+Ni/A==
+
 react-native-image-crop-picker@^0.36.2:
   version "0.36.2"
   resolved "https://registry.yarnpkg.com/react-native-image-crop-picker/-/react-native-image-crop-picker-0.36.2.tgz#fcb35c1a12d805bedbb6d94a87078e86a6c9b49f"
